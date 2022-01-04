@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Codystar'; 
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+ background-image: url('https://www.desktopbackground.org/download/2880x1800/2010/07/05/43818_download-wallpapers-3840x2400-autumn-field-road-landscape-ultra_3840x2400_h.jpg');
+}
+.App{ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ width: 100vw;
+ height: 100vh;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+}
+
+input[type=checkbox]{
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+}
+.card{
+  width: 280px;
+  height: 200px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background-color: rgba(229, 234, 238,0.1);
+margin: 30px;
+flex-direction: column;
+border-radius: 30px;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+font-size: 50px;
+font-weight: 900;
+}
+img{
+  width: 30px;
+  height: 30px;
+  border: 1px solid green;
+}
+.theeagle{
+  flex: 4;
+ /* border: 1px solid green;*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input{
+  outline: none;
+  border: 1px solid gray;
+  width: 80%;
+  height: 60px;
+  text-indent: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 10px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  overflow: hidden;
+  transition: all .7s ease;
+  border: 6px solid transparent;
+}
+input:hover{
+  border-bottom: 6px solid rgb(6, 7, 7);
+  transition: all .7s ease;
+}
+.zarif{
+  flex:5;
+  /*border: 1px solid green;*/
+  width: 400px;
+  height: 500px;
+  /*border: 1px solid gray;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.firstState{
+  color: white;
+  font-size: 30px;
+}
+.neons {
+  text-align: center;
+}
+
+.neons h1 {
+ font-size: 24px;
+ text-align: center;
+ text-transform: uppercase;
+  font-weight: bold;
+ -webkit-animation: glow 2s ease-in-out infinite alternate;
+ -moz-animation: glow 2s ease-in-out infinite alternate;
+ animation: glow 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes glow {
+    from {
+     color: #fff;
+   text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+ }
+ 
+ to {
+    color: gray;
+   text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+ }
+}
+
+.country{
+font-weight: 800;
+font-size: 39px;
+}
+.cloud{
+  font-weight: bolder;
+  
+}
+.degre{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 1px;
+}
+.fixed{
+position: fixed;
+right: 0px;
+top: 0px;
+}
+.fixed>button{
+  color: white;
+  border-radius: 6px;
+  padding: 7px 12px;
+  font-size: 17px;
+  font-weight: 900;
+  outline: none;
+  border: 1px solid white;
+  background-color: green;
+  margin: 3px;
+  
+}
